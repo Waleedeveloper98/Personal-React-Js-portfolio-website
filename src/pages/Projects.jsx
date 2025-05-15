@@ -39,6 +39,7 @@ const Projects = () => {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             src="1.png"
             alt=""
+            loading="lazy"
           />
           <div className="overlay absolute inset-0 bg-black/40 w-full h-full opacity-0 group-hover:opacity-100 transition-transform duration-500 flex items-end justify-end gap-10 p-4 px-6">
             <GithubIcon githubLink={"https://github.com/Waleedeveloper98/crypto_trackterr"}/>
@@ -50,6 +51,7 @@ const Projects = () => {
             className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
             src="2.png"
             alt=""
+            loading="lazy"
           />
           <div className="overlay absolute inset-0 bg-black/40 w-full h-full opacity-0 group-hover:opacity-100 transition-transform duration-500 flex items-end justify-end gap-10 p-4 px-6">
             <GithubIcon githubLink={"https://github.com/Waleedeveloper98/Kismic.ai-Clone"}/>
@@ -61,6 +63,7 @@ const Projects = () => {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             src="3.png"
             alt=""
+            loading="lazy"
           />
           <div className="overlay absolute inset-0 bg-black/40 w-full h-full opacity-0 group-hover:opacity-100 transition-transform duration-500 flex items-end justify-end gap-10 p-4 px-6">
             <GithubIcon githubLink={"https://github.com/Waleedeveloper98/React-js-project-1"}/>
@@ -72,6 +75,7 @@ const Projects = () => {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             src="4.png"
             alt=""
+            loading="lazy"
           />
           <div className="overlay absolute inset-0 bg-black/40 w-full h-full opacity-0 group-hover:opacity-100 transition-transform duration-500 flex items-end justify-end gap-10 p-4 px-6">
             <GithubIcon githubLink={"https://github.com/Waleedeveloper98/Obys-redesign"}/>
@@ -83,6 +87,7 @@ const Projects = () => {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             src="5.png"
             alt=""
+            loading="lazy"
           />
           <div className="overlay absolute inset-0 bg-black/40 w-full h-full opacity-0 group-hover:opacity-100 transition-transform duration-500 flex items-end justify-end gap-10 p-4 px-6">
             <GithubIcon githubLink={"https://github.com/Waleedeveloper98/sundown-website"}/>
@@ -94,6 +99,7 @@ const Projects = () => {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             src="6.png"
             alt=""
+            loading="lazy"
           />
           <div className="overlay absolute inset-0 bg-black/40 w-full h-full opacity-0 group-hover:opacity-100 transition-transform duration-500 flex items-end justify-end gap-10 p-4 px-6">
             <GithubIcon githubLink={"https://github.com/Waleedeveloper98/Topview.ai-Clone"}/>

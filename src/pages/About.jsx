@@ -40,6 +40,7 @@ const About = ({ handleScrollLinks }) => {
                 className="w-full h-full object-cover"
                 src="picofme.png"
                 alt=""
+                loading="lazy"
               />
             </div>
           </div>
