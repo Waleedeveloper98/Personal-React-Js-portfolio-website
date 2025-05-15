@@ -45,7 +45,7 @@ const Projects = () => {
             <GithubIcon githubLink={"https://github.com/Waleedeveloper98/crypto_trackterr"}/>
             <ExternalLink liveLink={"https://cryptotrackterr.vercel.app/"}/>
           </div>
-          <div className="overlay absolute inset-0 bg-black/40 w-full h-full opacity-0 group-hover:opacity-100 transition-transform duration-500">
+          <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500">
           </div>
         </div>
         <div className="group grid-item relative sm:col-span-3 sm:row-span-2 sm:col-start-7 h-48 lg:min-h-72 sm:h-auto rounded-sm lg:rounded-xl overflow-hidden cursor-pointer">
@@ -59,7 +59,7 @@ const Projects = () => {
             <GithubIcon githubLink={"https://github.com/Waleedeveloper98/Kismic.ai-Clone"}/>
             <ExternalLink liveLink={"https://waleedeveloper98.github.io/Kismic.ai-Clone/"}/>
           </div>
-          <div className="overlay absolute inset-0 bg-black/40 w-full h-full opacity-0 group-hover:opacity-100 transition-transform duration-500">
+          <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500">
             
           </div>
         </div>
@@ -74,7 +74,7 @@ const Projects = () => {
             <GithubIcon githubLink={"https://github.com/Waleedeveloper98/React-js-project-1"}/>
             <ExternalLink liveLink={"https://react-js-project-1-tau.vercel.app/"}/>
           </div>
-          <div className="overlay absolute inset-0 bg-black/40 w-full h-full opacity-0 group-hover:opacity-100 transition-transform duration-500">
+          <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500">
             
           </div>
         </div>
@@ -89,7 +89,7 @@ const Projects = () => {
             <GithubIcon githubLink={"https://github.com/Waleedeveloper98/Obys-redesign"}/>
             <ExternalLink liveLink={"https://waleedeveloper98.github.io/Obys-redesign/"}/>
           </div>
-          <div className="overlay absolute inset-0 bg-black/40 w-full h-full opacity-0 group-hover:opacity-100 transition-transform duration-500">
+          <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500">
             
           </div>
         </div>
@@ -104,7 +104,7 @@ const Projects = () => {
             <GithubIcon githubLink={"https://github.com/Waleedeveloper98/sundown-website"}/>
             <ExternalLink liveLink={"https://waleedeveloper98.github.io/sundown-website/"}/>
           </div>
-          <div className="overlay absolute inset-0 bg-black/40 w-full h-full opacity-0 group-hover:opacity-100 transition-transform duration-500">
+          <div className="overlay absolute inset-0 bg-black/30 w-full h-fullt ransition-transform duration-500">
             
           </div>
         </div>
@@ -119,7 +119,7 @@ const Projects = () => {
             <GithubIcon githubLink={"https://github.com/Waleedeveloper98/Topview.ai-Clone"}/>
             <ExternalLink liveLink={"https://waleedeveloper98.github.io/Topview.ai-Clone/"}/>
           </div>
-          <div className="overlay absolute inset-0 bg-black/40 w-full h-full opacity-0 group-hover:opacity-100 transition-transform duration-500">
+          <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500">
           </div>
         </div>
       </div>
