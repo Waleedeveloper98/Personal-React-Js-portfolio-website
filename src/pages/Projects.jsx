@@ -10,22 +10,45 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Projects = () => {
   const containerRef = useRef();
-  useGSAP(
-    () => {
-      gsap.from(".grid-item", {
-        scale: 0,
-        opacity: 0,
-        stagger: 0.2,
-        scrollTrigger: {
-          trigger: containerRef.current,
-          start: "top 80%",
-          end: "bottom 90%",
-          scrub: true,
-        },
+  useGSAP(() => {
+    const ctx = gsap.context(() => {
+      const elems = gsap.utils.toArray(".grid-item");
+
+      const mm = gsap.matchMedia();
+
+      mm.add("(min-width: 768px)", () => {
+        gsap.set(elems, { opacity: 0, scale: 0.5 });
+        gsap.to(elems, {
+          opacity: 1,
+          scale: 1,
+          stagger: 0.18,
+          scrollTrigger: {
+            trigger: containerRef.current,
+            start: "top 80%",
+            end: "bottom 90%",
+            scrub: true,
+          },
+        });
       });
-    },
-    { scope: containerRef }
-  );
+      mm.add("(max-width: 767px)", () => {
+        gsap.set(elems, { opacity: 0, scale: 0.8 });
+        gsap.to(elems, {
+          opacity: 1,
+          scale: 1,
+          stagger: 0.18,
+          scrollTrigger: {
+            trigger: containerRef.current,
+            start: "top 80%",
+            end: "bottom 90%",
+            scrub: true,
+          },
+        });
+      });
+    }, containerRef);
+
+    return () => ctx.revert();
+  }, []);
+  
   return (
     <div
       ref={containerRef}
@@ -42,11 +65,14 @@ const Projects = () => {
             loading="lazy"
           />
           <div className="icons-holder inset-0 absolute w-full h-full flex items-end justify-end p-4 px-6 gap-10 z-30">
-            <GithubIcon githubLink={"https://github.com/Waleedeveloper98/crypto_trackterr"}/>
-            <ExternalLink liveLink={"https://cryptotrackterr.vercel.app/"}/>
+            <GithubIcon
+              githubLink={
+                "https://github.com/Waleedeveloper98/crypto_trackterr"
+              }
+            />
+            <ExternalLink liveLink={"https://cryptotrackterr.vercel.app/"} />
           </div>
-          <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500">
-          </div>
+          <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500"></div>
         </div>
         <div className="group grid-item relative sm:col-span-3 sm:row-span-2 sm:col-start-7 h-48 lg:min-h-72 sm:h-auto rounded-sm lg:rounded-xl overflow-hidden cursor-pointer">
           <img
@@ -56,12 +82,14 @@ const Projects = () => {
             loading="lazy"
           />
           <div className="icons-holder inset-0 absolute w-full h-full flex items-end justify-end p-4 px-6 gap-10 z-30">
-            <GithubIcon githubLink={"https://github.com/Waleedeveloper98/Kismic.ai-Clone"}/>
-            <ExternalLink liveLink={"https://waleedeveloper98.github.io/Kismic.ai-Clone/"}/>
+            <GithubIcon
+              githubLink={"https://github.com/Waleedeveloper98/Kismic.ai-Clone"}
+            />
+            <ExternalLink
+              liveLink={"https://waleedeveloper98.github.io/Kismic.ai-Clone/"}
+            />
           </div>
-          <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500">
-            
-          </div>
+          <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500"></div>
         </div>
         <div className="group grid-item relative sm:col-span-3 sm:row-start-2 h-48 sm:h-56 rounded-sm lg:rounded-xl lg:h-72 overflow-hidden cursor-pointer">
           <img
@@ -71,12 +99,16 @@ const Projects = () => {
             loading="lazy"
           />
           <div className="icons-holder inset-0 absolute w-full h-full flex items-end justify-end p-4 px-6 gap-10 z-30">
-            <GithubIcon githubLink={"https://github.com/Waleedeveloper98/React-js-project-1"}/>
-            <ExternalLink liveLink={"https://react-js-project-1-tau.vercel.app/"}/>
+            <GithubIcon
+              githubLink={
+                "https://github.com/Waleedeveloper98/React-js-project-1"
+              }
+            />
+            <ExternalLink
+              liveLink={"https://react-js-project-1-tau.vercel.app/"}
+            />
           </div>
-          <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500">
-            
-          </div>
+          <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500"></div>
         </div>
         <div className="group grid-item relative sm:col-span-3 sm:col-start-4 sm:row-start-2 h-48 sm:h-56 rounded-sm lg:rounded-xl lg:h-72 overflow-hidden cursor-pointer">
           <img
@@ -85,13 +117,15 @@ const Projects = () => {
             alt=""
             loading="lazy"
           />
-           <div className="icons-holder inset-0 absolute w-full h-full flex items-end justify-end p-4 px-6 gap-10 z-30">
-            <GithubIcon githubLink={"https://github.com/Waleedeveloper98/Obys-redesign"}/>
-            <ExternalLink liveLink={"https://waleedeveloper98.github.io/Obys-redesign/"}/>
+          <div className="icons-holder inset-0 absolute w-full h-full flex items-end justify-end p-4 px-6 gap-10 z-30">
+            <GithubIcon
+              githubLink={"https://github.com/Waleedeveloper98/Obys-redesign"}
+            />
+            <ExternalLink
+              liveLink={"https://waleedeveloper98.github.io/Obys-redesign/"}
+            />
           </div>
-          <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500">
-            
-          </div>
+          <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500"></div>
         </div>
         <div className="group grid-item relative sm:col-span-4 sm:row-start-3 w-full h-48 sm:h-56 rounded-sm lg:rounded-xl lg:h-72 overflow-hidden cursor-pointer">
           <img
@@ -100,13 +134,15 @@ const Projects = () => {
             alt=""
             loading="lazy"
           />
-           <div className="icons-holder inset-0 absolute w-full h-full flex items-end justify-end p-4 px-6 gap-10 z-30">
-            <GithubIcon githubLink={"https://github.com/Waleedeveloper98/sundown-website"}/>
-            <ExternalLink liveLink={"https://waleedeveloper98.github.io/sundown-website/"}/>
+          <div className="icons-holder inset-0 absolute w-full h-full flex items-end justify-end p-4 px-6 gap-10 z-30">
+            <GithubIcon
+              githubLink={"https://github.com/Waleedeveloper98/sundown-website"}
+            />
+            <ExternalLink
+              liveLink={"https://waleedeveloper98.github.io/sundown-website/"}
+            />
           </div>
-          <div className="overlay absolute inset-0 bg-black/30 w-full h-fullt ransition-transform duration-500">
-            
-          </div>
+          <div className="overlay absolute inset-0 bg-black/30 w-full h-fullt ransition-transform duration-500"></div>
         </div>
         <div className="group grid-item relative sm:col-span-5 sm:col-start-5 sm:row-start-3 w-full h-48 sm:h-56 rounded-sm lg:rounded-xl lg:h-72 overflow-hidden cursor-pointer">
           <img
@@ -116,11 +152,16 @@ const Projects = () => {
             loading="lazy"
           />
           <div className="icons-holder inset-0 absolute w-full h-full flex items-end justify-end p-4 px-6 gap-10 z-30">
-            <GithubIcon githubLink={"https://github.com/Waleedeveloper98/Topview.ai-Clone"}/>
-            <ExternalLink liveLink={"https://waleedeveloper98.github.io/Topview.ai-Clone/"}/>
+            <GithubIcon
+              githubLink={
+                "https://github.com/Waleedeveloper98/Topview.ai-Clone"
+              }
+            />
+            <ExternalLink
+              liveLink={"https://waleedeveloper98.github.io/Topview.ai-Clone/"}
+            />
           </div>
-          <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500">
-          </div>
+          <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500"></div>
         </div>
       </div>
     </div>
