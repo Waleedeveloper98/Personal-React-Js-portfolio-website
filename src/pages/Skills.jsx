@@ -54,29 +54,6 @@ const Skills = () => {
     });
     return () => ctx.revert();
   }, []);
-  // useGSAP(()=>{
-  //   const skillElements = gsap.utils.toArray(".skill-box");
-  //   const shuffled = gsap.utils.shuffle(skillElements)
-
-  //   gsap.set(shuffled,{opacity:0, scale:0.5})
-
-  //   gsap.to(shuffled,{
-  //     duration: 1.1,
-  //     opacity: 1,
-  //     scale:1,
-  //     ease: "back.out(1.7)",
-  //     stagger:{
-  //       each: 0.1,
-  //       from: "random"
-  //     },
-  //     scrollTrigger:{
-  //       trigger: "#skills",
-  //       start:"top 70%",
-  //       end: "top 0%",
-  //       scrub: true,
-  //     },
-  //   })
-  // },{})
 
   return (
     <div id="skills" className="w-full pb-14 sm:pb-8 lg:pb-2">
