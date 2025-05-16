@@ -38,7 +38,7 @@ const About = ({ handleScrollLinks }) => {
             <div className="w-full h-full bg-white rounded-sm lg:rounded-lg overflow-hidden">
               <img
                 className="w-full h-full object-cover"
-                src="picofme.png"
+                src="picofme.webp"
                 alt=""
                 loading="lazy"
               />

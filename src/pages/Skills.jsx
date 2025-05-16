@@ -15,20 +15,20 @@ const Skills = () => {
     gsap.set(shuffled,{opacity:0, scale:0.5})
 
     gsap.to(shuffled,{
-      duration: 2,
+      duration: 1,
+      opacity: 1,
+      scale:1,
+      ease: "back.out(1.7)",
+      stagger:{
+        each: 0.2,
+        from: "random"
+      },
       scrollTrigger:{
         trigger: "#skills",
         start:"top 70%",
         end: "top 0%",
-        scrub: 2,
+        scrub: true,
       },
-      opacity:1,
-      scale:1,
-      ease: "back.out(1.7)",
-      stagger:{
-        each: .2,
-        from: "random"
-      }
     })
   },{})
 

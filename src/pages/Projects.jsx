@@ -37,7 +37,7 @@ const Projects = () => {
         <div className="group grid-item relative sm:col-span-6 h-48 sm:h-56 rounded-sm lg:rounded-xl lg:h-72 overflow-hidden cursor-pointer">
           <img
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            src="1.png"
+            src="one.webp"
             alt=""
             loading="lazy"
           />
@@ -51,7 +51,7 @@ const Projects = () => {
         <div className="group grid-item relative sm:col-span-3 sm:row-span-2 sm:col-start-7 h-48 lg:min-h-72 sm:h-auto rounded-sm lg:rounded-xl overflow-hidden cursor-pointer">
           <img
             className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
-            src="2.png"
+            src="two.webp"
             alt=""
             loading="lazy"
           />
@@ -66,7 +66,7 @@ const Projects = () => {
         <div className="group grid-item relative sm:col-span-3 sm:row-start-2 h-48 sm:h-56 rounded-sm lg:rounded-xl lg:h-72 overflow-hidden cursor-pointer">
           <img
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            src="3.png"
+            src="three.webp"
             alt=""
             loading="lazy"
           />
@@ -81,7 +81,7 @@ const Projects = () => {
         <div className="group grid-item relative sm:col-span-3 sm:col-start-4 sm:row-start-2 h-48 sm:h-56 rounded-sm lg:rounded-xl lg:h-72 overflow-hidden cursor-pointer">
           <img
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            src="4.png"
+            src="four.webp"
             alt=""
             loading="lazy"
           />
@@ -96,7 +96,7 @@ const Projects = () => {
         <div className="group grid-item relative sm:col-span-4 sm:row-start-3 w-full h-48 sm:h-56 rounded-sm lg:rounded-xl lg:h-72 overflow-hidden cursor-pointer">
           <img
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            src="5.png"
+            src="five.webp"
             alt=""
             loading="lazy"
           />
@@ -111,7 +111,7 @@ const Projects = () => {
         <div className="group grid-item relative sm:col-span-5 sm:col-start-5 sm:row-start-3 w-full h-48 sm:h-56 rounded-sm lg:rounded-xl lg:h-72 overflow-hidden cursor-pointer">
           <img
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            src="6.png"
+            src="six.webp"
             alt=""
             loading="lazy"
           />
