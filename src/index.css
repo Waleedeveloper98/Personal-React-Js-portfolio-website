@@ -45,6 +45,6 @@ body {
 #form-container {
   will-change: transform, opacity;
 }
-.grid-item {
+.skill-box {
   will-change: transform, opacity;
 }

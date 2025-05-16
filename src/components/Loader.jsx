@@ -44,12 +44,12 @@ const Loader = ({ setLoaderDone }) => {
   return (
     <div
       ref={loaderRef}
-      className="w-full h-screen flex items-center justify-center absolute top-0 left-0 bg-black z-[9999] overflow-hidden"
+      className="w-full font-[roboto] h-screen flex items-center justify-center absolute top-0 left-0 bg-black z-[9999] overflow-hidden"
     >
       <div className="loader">
         <div
           ref={textRef}
-          className="text flex text-[3.5rem] md:text-[7rem] font-bold relative overflow-hidden"
+          className="text flex text-[3.5rem] md:text-[7rem] font-black relative overflow-hidden"
         >
           {["W", "A", "L", "E", "E", "D", "D", "E", "V"].map((text, index) => {
             return (
