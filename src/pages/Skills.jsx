@@ -15,12 +15,12 @@ const Skills = () => {
     gsap.set(shuffled,{opacity:0, scale:0.5})
 
     gsap.to(shuffled,{
-      duration: 1.5,
+      duration: 1.1,
       opacity: 1,
       scale:1,
       ease: "back.out(1.7)",
       stagger:{
-        each: 0.2,
+        each: 0.1,
         from: "random"
       },
       scrollTrigger:{
