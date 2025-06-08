@@ -48,7 +48,7 @@ const Projects = () => {
 
     return () => ctx.revert();
   }, []);
-  
+
   return (
     <div
       ref={containerRef}
@@ -66,11 +66,9 @@ const Projects = () => {
           />
           <div className="icons-holder inset-0 absolute w-full h-full flex items-end justify-end p-4 px-6 gap-10 z-30">
             <GithubIcon
-              githubLink={
-                "https://github.com/Waleedeveloper98/crypto_trackterr"
-              }
+              githubLink={"https://github.com/Waleedeveloper98/Crypto-Gear"}
             />
-            <ExternalLink liveLink={"https://cryptotrackterr.vercel.app/"} />
+            <ExternalLink liveLink={"https://crypto-gear.vercel.app/"} />
           </div>
           <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500"></div>
         </div>
