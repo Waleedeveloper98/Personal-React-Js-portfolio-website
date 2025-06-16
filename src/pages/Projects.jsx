@@ -134,10 +134,14 @@ const Projects = () => {
           />
           <div className="icons-holder inset-0 absolute w-full h-full flex items-end justify-end p-4 px-6 gap-10 z-30">
             <GithubIcon
-              githubLink={"https://github.com/Waleedeveloper98/sundown-website"}
+              githubLink={
+                "https://github.com/Waleedeveloper98/Job-Application-Tracker"
+              }
             />
             <ExternalLink
-              liveLink={"https://waleedeveloper98.github.io/sundown-website/"}
+              liveLink={
+                "https://job-application-tracker-bice-seven.vercel.app/"
+              }
             />
           </div>
           <div className="overlay absolute inset-0 bg-black/30 w-full h-fullt ransition-transform duration-500"></div>
