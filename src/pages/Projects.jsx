@@ -74,24 +74,24 @@ const Projects = () => {
         </div>
         <div className="group grid-item relative sm:col-span-3 sm:row-span-2 sm:col-start-7 h-48 lg:min-h-72 sm:h-auto rounded-sm lg:rounded-xl overflow-hidden cursor-pointer">
           <img
-            className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
+            className="w-full h-full object-cover  object-left group-hover:scale-105 transition-transform duration-300"
             src="two.webp"
             alt=""
             loading="lazy"
           />
           <div className="icons-holder inset-0 absolute w-full h-full flex items-end justify-end p-4 px-6 gap-10 z-30">
             <GithubIcon
-              githubLink={"https://github.com/Waleedeveloper98/Kismic.ai-Clone"}
+              githubLink={"https://github.com/Waleedeveloper98/React-Invoice-Generator"}
             />
             <ExternalLink
-              liveLink={"https://waleedeveloper98.github.io/Kismic.ai-Clone/"}
+              liveLink={"https://react-invoice-generator-iota.vercel.app/"}
             />
           </div>
           <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500"></div>
         </div>
         <div className="group grid-item relative sm:col-span-3 sm:row-start-2 h-48 sm:h-56 rounded-sm lg:rounded-xl lg:h-72 overflow-hidden cursor-pointer">
           <img
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 object-left"
             src="three.webp"
             alt=""
             loading="lazy"
@@ -99,12 +99,10 @@ const Projects = () => {
           <div className="icons-holder inset-0 absolute w-full h-full flex items-end justify-end p-4 px-6 gap-10 z-30">
             <GithubIcon
               githubLink={
-                "https://github.com/Waleedeveloper98/React-js-project-1"
+                "https://github.com/Waleedeveloper98/Bus-Route-Finder"
               }
             />
-            <ExternalLink
-              liveLink={"https://react-js-project-1-tau.vercel.app/"}
-            />
+            <ExternalLink liveLink={"https://bus-route-finder.vercel.app/"} />
           </div>
           <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500"></div>
         </div>
@@ -117,10 +115,10 @@ const Projects = () => {
           />
           <div className="icons-holder inset-0 absolute w-full h-full flex items-end justify-end p-4 px-6 gap-10 z-30">
             <GithubIcon
-              githubLink={"https://github.com/Waleedeveloper98/Obys-redesign"}
+              githubLink={"https://github.com/Waleedeveloper98/RecipeHub"}
             />
             <ExternalLink
-              liveLink={"https://waleedeveloper98.github.io/Obys-redesign/"}
+              liveLink={"https://recipe-hub-drab.vercel.app/"}
             />
           </div>
           <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500"></div>
@@ -156,11 +154,11 @@ const Projects = () => {
           <div className="icons-holder inset-0 absolute w-full h-full flex items-end justify-end p-4 px-6 gap-10 z-30">
             <GithubIcon
               githubLink={
-                "https://github.com/Waleedeveloper98/Topview.ai-Clone"
+                "https://github.com/Waleedeveloper98/Quran-explorer"
               }
             />
             <ExternalLink
-              liveLink={"https://waleedeveloper98.github.io/Topview.ai-Clone/"}
+              liveLink={"https://quran-explorer.vercel.app/"}
             />
           </div>
           <div className="overlay absolute inset-0 bg-black/30 w-full h-full transition-transform duration-500"></div>
